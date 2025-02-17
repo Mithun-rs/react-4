@@ -16,11 +16,11 @@ const App = () => {
         <h1>Lazy Loaded Pages</h1>
         <Suspense fallback={<h3>Loading...</h3>}>
           <Routes>
-            <Route path="/page1" element={<Page1 />} />
-            <Route path="/page2" element={<Page2 />} />
-            <Route path="/page3" element={<Page3 />} />
-            <Route path="/page4" element={<Page4 />} />
-            <Route path="/page5" element={<Page5 />} />
+            <Route path="/react-4/page1" element={<Page1 />} />
+            <Route path="/react-4/page2" element={<Page2 />} />
+            <Route path="/react-4/page3" element={<Page3 />} />
+            <Route path="/react-4/page4" element={<Page4 />} />
+            <Route path="/react-4/page5" element={<Page5 />} />
           </Routes>
         </Suspense>
       </div>
